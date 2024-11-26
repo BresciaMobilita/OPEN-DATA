@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://github.com/BresciaMobilita/Open-Data">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>Dati sulla mobilità di Brescia</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="02246660985">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>02246660985</dct:identifier>
+      <foaf:name>Gruppo Brescia Mobilità</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Dati sulla mobilità di Brescia</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://github.com/BresciaMobilita/Open-Data#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://github.com/BresciaMobilita/Open-Data/sosta"/>
+  <dcat:dataset rdf:resource="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile"/>
+  </dcatapit:Catalog>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN">
+    <skos:prefLabel>Trasporti</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/BresciaMobilita/Open-Data/sosta">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dct:license/>
+    <dct:title>Sosta</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/BresciaMobilita/Open-Data/tree/main/Sosta/"/>
+    <dct:description>Informazioni sui parcheggi in struttura e sui parcheggia in strada nel comune di Brescia</dct:description>
+    <dct:identifier>02246660985:sosta</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="02246660985">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>02246660985</dct:identifier>
+        <foaf:name>Brescia Mobilita' Spa</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>02246660985</dct:identifier>
+        <foaf:name>Brescia Mobilita' Spa</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100239">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4816 trasporti terrestri</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
+    <dcat:keyword>Parcheggi</dcat:keyword>
+    <dcat:keyword>Parcometri</dcat:keyword>
+    <dcat:keyword>Sosta</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/BresciaMobilita/Open-Data/sosta/csv2"/>
+    <dcat:distribution rdf:resource="https://github.com/BresciaMobilita/Open-Data/sosta/csv3"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN">
+    <skos:prefLabel>Trasporti</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dct:license/>
+    <dct:title>Mobilità sostenibile</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/BresciaMobilita/Open-Data/tree/main/mobilita-sostenibile/"/>
+    <dct:description>Informazioni sul trasporto pubblico locale su gomma e bike sharing</dct:description>
+    <dct:identifier>02246660985:mobilità-sostenibile</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="02246660985">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>02246660985</dct:identifier>
+        <foaf:name>Brescia Mobilita' Spa</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>02246660985</dct:identifier>
+        <foaf:name>Brescia Mobilita' Spa</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100239">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4816 trasporti terrestri</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
+    <dcat:keyword>Autobus</dcat:keyword>
+    <dcat:keyword>bikesharing</dcat:keyword>
+    <dcat:keyword>mobilità</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile/csv4"/>
+    <dcat:distribution rdf:resource="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile/csv5"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://github.com/BresciaMobilita/Open-Data/sosta/csv2">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/BresciaMobilita/Open-Data/refs/heads/main/Sosta/Parcheggio%20in%20struttura%20-%20Brescia.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Parcheggi in struttura</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/BresciaMobilita/Open-Data/sosta/csv3">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/BresciaMobilita/Open-Data/refs/heads/main/Sosta/Parcometri%20-%20Brescia.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://w3id.org/italia/controlled-vocabulary/licences/A21:CCBY40">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Parcheggi su strada</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile/csv4">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/BresciaMobilita/Open-Data/refs/heads/main/mobilita-sostenibile/Postazioni%20Bike%20Sharing%20-%20Brescia.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Postazioni di Bike Sharing</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile/csv5">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/BresciaMobilita/Open-Data/refs/heads/main/mobilita-sostenibile/Fermate%20autobus%20-%20Brescia.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Fermate Autobus</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="https://www.bresciamobilita.it">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Brescia Mobilita' Spa</vcard:fn>
+  <vcard:hasEmail rdf:resource="customercare@bresciamobilita.it"/>
+  <vcard:hasTelephone>0303061200</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://www.bresciamobilita.it"/>
+</dcatapit:Organization>
+</rdf:RDF>
