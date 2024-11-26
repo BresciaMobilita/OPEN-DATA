@@ -7,10 +7,10 @@
   <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
   <dct:title>Dati sulla mobilità di Brescia</dct:title>
   <dct:publisher>
-    <dcatapit:Agent rdf:about="02246660985">
+    <dcatapit:Agent rdf:about="bmspa">
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
       <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-      <dct:identifier>02246660985</dct:identifier>
+      <dct:identifier>bmspa</dct:identifier>
       <foaf:name>Gruppo Brescia Mobilità</foaf:name>
     </dcatapit:Agent>
   </dct:publisher>
@@ -39,13 +39,13 @@
     <dct:title>Sosta</dct:title>
     <dcat:landingPage rdf:resource="https://github.com/BresciaMobilita/Open-Data/tree/main/Sosta/"/>
     <dct:description>Informazioni sui parcheggi in struttura e sui parcheggia in strada nel comune di Brescia</dct:description>
-    <dct:identifier>02246660985:sosta</dct:identifier>
+    <dct:identifier>bmspa:sosta</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="02246660985">
+      <dcatapit:Agent rdf:about="bmspa">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>02246660985</dct:identifier>
+        <dct:identifier>bmspa</dct:identifier>
         <foaf:name>Brescia Mobilita' Spa</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -53,7 +53,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>02246660985</dct:identifier>
+        <dct:identifier>bmspa</dct:identifier>
         <foaf:name>Brescia Mobilita' Spa</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
@@ -85,13 +85,13 @@
     <dct:title>Mobilità sostenibile</dct:title>
     <dcat:landingPage rdf:resource="https://github.com/BresciaMobilita/Open-Data/tree/main/mobilita-sostenibile/"/>
     <dct:description>Informazioni sul trasporto pubblico locale su gomma e bike sharing</dct:description>
-    <dct:identifier>02246660985:mobilità-sostenibile</dct:identifier>
+    <dct:identifier>bmspa:mobilità-sostenibile</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
     <dct:rightsHolder>
-      <dcatapit:Agent rdf:about="02246660985">
+      <dcatapit:Agent rdf:about="bmspa">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>02246660985</dct:identifier>
+        <dct:identifier>bmspa</dct:identifier>
         <foaf:name>Brescia Mobilita' Spa</foaf:name>
       </dcatapit:Agent>
     </dct:rightsHolder>
@@ -99,7 +99,7 @@
       <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-        <dct:identifier>02246660985</dct:identifier>
+        <dct:identifier>bmspa</dct:identifier>
         <foaf:name>Brescia Mobilita' Spa</foaf:name>
       </dcatapit:Agent>
     </dct:publisher>
