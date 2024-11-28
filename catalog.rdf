@@ -39,7 +39,7 @@
     <dct:license/>
     <dct:title>Sosta</dct:title>
     <dcat:landingPage rdf:resource="https://github.com/BresciaMobilita/Open-Data/tree/main/Sosta/"/>
-    <dct:description>Informazioni sui parcheggi in struttura e sui parcheggia in strada nel comune di Brescia</dct:description>
+    <dct:description>Informazioni sui parcheggi in struttura e sui parcheggi in strada nel comune di Brescia</dct:description>
     <dct:identifier>bmspa:sosta</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
