@@ -22,11 +22,12 @@
       <dct:title>Data Theme Vocabulary</dct:title>
     </skos:ConceptScheme>
   </dcat:themeTaxonomy>
-  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:modified>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-28</dct:modified>
   <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:issued>
   <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
   <dcat:dataset rdf:resource="https://github.com/BresciaMobilita/Open-Data/sosta"/>
   <dcat:dataset rdf:resource="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile"/>
+  <dcat:dataset rdf:resource="https://github.com/BresciaMobilita/Open-Data/trasporto-pubblico-locale"/>
   </dcatapit:Catalog>
   <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN">
     <skos:prefLabel>Trasporti</skos:prefLabel>
@@ -65,7 +66,7 @@
     </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:modified>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-28</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
     <dcat:keyword>Parcheggi</dcat:keyword>
@@ -84,7 +85,7 @@
     <dct:license/>
     <dct:title>Mobilità sostenibile</dct:title>
     <dcat:landingPage rdf:resource="https://github.com/BresciaMobilita/Open-Data/tree/main/mobilita-sostenibile/"/>
-    <dct:description>Informazioni sul trasporto pubblico locale su gomma e bike sharing</dct:description>
+    <dct:description>Informazioni sul bike sharing</dct:description>
     <dct:identifier>bmspa:mobilità-sostenibile</dct:identifier>
     <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
     <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
@@ -111,14 +112,57 @@
     </dct:subject>
     <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
     <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:modified>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-28</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-20</dct:issued>
     <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
-    <dcat:keyword>Autobus</dcat:keyword>
     <dcat:keyword>bikesharing</dcat:keyword>
     <dcat:keyword>mobilità</dcat:keyword>
     <dcat:distribution rdf:resource="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile/csv4"/>
-    <dcat:distribution rdf:resource="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile/csv5"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN">
+    <skos:prefLabel>Trasporti</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/BresciaMobilita/Open-Data/trasporto-pubblico-locale">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dct:license/>
+    <dct:title>Trasporto pubblico locale</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/BresciaMobilita/Open-Data/tree/main/TPL/"/>
+    <dct:description>Informazioni sul trasporto pubblico locale su gomma</dct:description>
+    <dct:identifier>bmspa:trasporto-pubblico-locale</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="bmspa">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>bmspa</dct:identifier>
+        <foaf:name>Brescia Mobilita' Spa</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>bmspa</dct:identifier>
+        <foaf:name>Brescia Mobilita' Spa</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100239">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4816 trasporti terrestri</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-28</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-28</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.bresciamobilita.it"/>
+    <dcat:keyword>Autobus</dcat:keyword>
+    <dcat:keyword>mobilità</dcat:keyword>
+    <dcat:keyword>TPL</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/BresciaMobilita/Open-Data/trasporto-pubblico-locale/csv5"/>
   </dcatapit:Dataset>
   <dcatapit:Distribution rdf:about="https://github.com/BresciaMobilita/Open-Data/sosta/csv2">
     <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/BresciaMobilita/Open-Data/refs/heads/main/Sosta/Parcheggio%20in%20struttura%20-%20Brescia.csv"/>
@@ -165,8 +209,8 @@
     <dct:title>Postazioni di Bike Sharing</dct:title>
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
-  <dcatapit:Distribution rdf:about="https://github.com/BresciaMobilita/Open-Data/mobilità-sostenibile/csv5">
-    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/BresciaMobilita/Open-Data/refs/heads/main/mobilita-sostenibile/Fermate%20autobus%20-%20Brescia.csv"/>
+  <dcatapit:Distribution rdf:about="https://github.com/BresciaMobilita/Open-Data/trasporto-pubblico-locale/csv5">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/BresciaMobilita/Open-Data/refs/heads/main/TPL/Fermate%20autobus%20-%20Brescia.csv"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
